@@ -1,0 +1,31 @@
+{
+  "name": "jruedaq/php-github-issues-report",
+  "description": "Create a Github issue in a repository from PHP proyect",
+  "keywords": ["github", "issues", "report", "bot", "automatization", "devops"],
+  "type": "library",
+  "authors": [
+    {
+      "name": "jruedaq",
+      "email": "jrueda@oneago.com",
+      "homepage": "https://www.juandavid.dev",
+      "role": "developer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/jruedaq/PHP-Github-issues-report",
+    "issues": "https://github.com/jruedaq/PHP-Github-issues-report/issues"
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "jruedaq\\GithubIssuesReport\\": "src/"
+    }
+  }
+}
