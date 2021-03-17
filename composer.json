@@ -1,6 +1,6 @@
 {
   "name": "jruedaq/php-github-issues-report",
-  "description": "Create a Github issue in a repository from PHP proyect",
+  "description": "Create a Github issue in a repository from PHP project",
   "keywords": ["github", "issues", "report", "bot", "automatization", "devops"],
   "license": "MIT",
   "type": "library",
